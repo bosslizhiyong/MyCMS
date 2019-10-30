@@ -19,7 +19,6 @@ namespace MyCRM.Web
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();//13
-
+                .UseStartup<Startup>();
     }
 }
